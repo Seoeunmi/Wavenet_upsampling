@@ -1,0 +1,27 @@
+{
+  "previous_size" : 640,
+  "current_size"  : 320,
+  "future_size"   : 640,
+  "shift_size"    : 320,
+
+  "upsample_size" : 2,
+
+  "dilation"      : [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512],
+  "batch_size"    : 10,
+  "epochs"        : 10000,
+  "learning_rate" : 0.0001,
+  "relu_alpha"    : 0.0,
+  "default_float" : "float32",
+
+  "save_check_point_period" : 10,
+  "load_check_point_name" : "upsampling_290",
+  "save_check_point_name" : "upsampling",
+
+  "training_source_path"  : "./dataset/source/train",
+  "training_target_path"  : "./dataset/target/train",
+
+  "test_source_path"  : "./dataset/source/test",
+  "test_target_path"  : "",
+
+  "plot_file" : "upsampling.plot"
+}
